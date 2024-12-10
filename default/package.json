@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production react-bridging build",
+    "dev": "react-bridging dev",
+    "start": "cross-env NODE_ENV=production react-bridging-serve ./build/server/index.js",
+    "typecheck": "react-bridging typegen && tsc"
+  },
+  "dependencies": {
+    "@react-bridging/node": "*",
+    "@react-bridging/serve": "*",
+    "isbot": "^5.1.17",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-bridging": "*"
+  },
+  "devDependencies": {
+    "@react-bridging/dev": "*",
+    "@types/node": "^20",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.1",
+    "autoprefixer": "^10.4.20",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16",
+    "typescript": "^5.7.2",
+    "vite": "^5.4.11",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}

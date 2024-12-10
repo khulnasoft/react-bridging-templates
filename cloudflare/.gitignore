@@ -1,0 +1,10 @@
+.DS_Store
+/node_modules/
+
+# React Bridging
+/.react-bridging/
+/build/
+
+# Cloudflare
+.mf
+.wrangler

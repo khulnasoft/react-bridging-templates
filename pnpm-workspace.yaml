@@ -1,0 +1,10 @@
+packages:
+  - "cloudflare"
+  - "cloudflare-d1"
+  - "default"
+  - "deno-custom-server"
+  - "netlify"
+  - "node-custom-server"
+  - "node-postgres"
+  - "static"
+  - "vercel"
